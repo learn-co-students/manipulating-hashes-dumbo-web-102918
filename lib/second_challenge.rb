@@ -1,3 +1,4 @@
+require "pry"
 def second_challenge
   groceries = {
    dairy: ["milk", "yogurt", "cheese"],
@@ -6,8 +7,12 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-  #code your solution here!
-
+  new_array = groceries.values
+  array2=[]
+  new_array.each do |still_array|
+     array2 << still_array.each
+  
+array2
   
 
 end
