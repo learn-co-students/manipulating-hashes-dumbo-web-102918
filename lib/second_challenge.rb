@@ -5,9 +5,8 @@ def second_challenge
    meat: ["chicken", "steak", "salmon"],
    grains: ["rice", "pasta"]
   }
+nested_array = groceries.values
+nested_array.flatten
 
-  #code your solution here!
-
-  
 
 end
